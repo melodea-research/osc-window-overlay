@@ -1,0 +1,27 @@
+{
+  "name": "electron-window-overlay",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "electron-reload": "^2.0.0-alpha.1"
+  },
+  "build": {
+    "appId": "com.example.transparentapp",
+    "mac": {
+      "target": "dmg"
+    }
+  },
+  "dependencies": {
+    "node-osc": "^9.1.4"
+  }
+}
